@@ -1,8 +1,7 @@
-import { useContext } from "react";
-import UserContext from "../UserContext";
+import { useContext } from 'react';
+import UserContext from '../UserContext'; // Adjusted import since UserContext is one folder up
 
 function UserDetails() {
-  // Access the userData from UserContext
   const userData = useContext(UserContext);
 
   return (
@@ -14,3 +13,4 @@ function UserDetails() {
 }
 
 export default UserDetails;
+
