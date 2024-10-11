@@ -1,5 +1,5 @@
 // src/App.jsx
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import RecipeList from './components/RecipeList'; // Assuming you have this component
 import RecipeDetails from './components/RecipeDetails'; // Component for recipe details
 import AddRecipeForm from './components/AddRecipeForm'; // Component for adding recipes
