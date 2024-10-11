@@ -10,7 +10,7 @@ const RecommendationsList = () => {
       {recommendations.map(recipe => (
         <div key={recipe.id}>
           <h3>{recipe.title}</h3>
-          <p>{recipe.description}</p>
+          <p>{recipe.descriptio}</p>
         </div>
       ))}
     </div>
